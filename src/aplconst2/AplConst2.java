@@ -15,7 +15,7 @@ public class AplConst2 {
         Rectangulo rec1= new Rectangulo(base,altura);
         System.out.println("base : "+rec1.getBase());
         System.out.println("altura : "+rec1.getAltura());
-        System.out.println("area distinta = "+ rec1.calcularArea(7, 8));
+        System.out.println("area distinta = "+ rec1.calcularArea(base,altura));
         System.out.println("perimetro = "+rec1.calcularPerimetro());*/
              
                 
@@ -28,8 +28,8 @@ public class AplConst2 {
         JOptionPane.showMessageDialog (null, "altura= "+ altura);
         Rectangulo rec1= new Rectangulo(base,altura);
         
-        JOptionPane.showMessageDialog (null, "area = "+ base*altura);
-        JOptionPane.showMessageDialog (null, "perimetro = "+ 2*(base+altura));    
+        JOptionPane.showMessageDialog (null, "area = "+ rec1.calcularArea(base,altura));
+        JOptionPane.showMessageDialog (null, "perimetro = "+ rec1.calcularPerimetro());    
         
         
        
