@@ -6,8 +6,8 @@ import javax.swing.JOptionPane;
 public class AplConst2 {
 
     public static void main(String[] args) {
-        /*float base, altura;
-        Scanner obx=new Scanner(System.in);
+        float base, altura;
+        /*Scanner obx=new Scanner(System.in);
         System.out.println("indica base : ");
         base=obx.nextFloat();
         System.out.println("indica altura : ");
@@ -19,7 +19,7 @@ public class AplConst2 {
         System.out.println("perimetro = "+rec1.calcularPerimetro());*/
              
                 
-        float base, altura;
+        
         String resposta=JOptionPane.showInputDialog("base :");
         base= Float.parseFloat(resposta);
         String resposta2=JOptionPane.showInputDialog("altura :");
